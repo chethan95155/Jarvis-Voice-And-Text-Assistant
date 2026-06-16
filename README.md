@@ -23,7 +23,7 @@ A sophisticated AI-powered voice assistant with a modern Streamlit web interface
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/chethan95155/jarvis-voice-assistant.git
+   git clone https://github.com/chethan95155/Jarvis-Voice-And-Text-Assistant.git
    cd jarvis-voice-assistant
    ```
 
