@@ -23,8 +23,8 @@ A sophisticated AI-powered voice assistant with a modern Streamlit web interface
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/jarvis-voice-assistant.git
-   cd jarvis-voice-assistant
+   git clone https://github.com/chethan95155/Jarvis-Voice-And-Text-Assistant.git
+   cd Jarvis-Voice-And-Text-Assistant
    ```
 
 2. **Install dependencies:**
@@ -100,25 +100,3 @@ MIT License - See LICENSE file for details
 ## Support
 
 For issues and questions, please open an issue on GitHub.
-
-## Limitations & Notes
-
-- Voice input requires browser microphone permissions
-- System-level program launching (open/close) only works on local deployment
-- Cloud deployments may have browser security restrictions on audio
-
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| `ModuleNotFoundError: No module named 'dotenv'` | Run `pip install python-dotenv` |
-| Microphone not working | Check browser permissions and allow microphone access |
-| API key errors | Verify `GEMINI_API_KEY` is correctly set in `.env` |
-
-## License
-
-MIT License - See LICENSE file for details
-
-## Support
-
-For issues and questions, please open an issue on GitHub
