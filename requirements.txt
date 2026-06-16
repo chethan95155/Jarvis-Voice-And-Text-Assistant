@@ -4,5 +4,4 @@ SpeechRecognition
 pyttsx3
 pywhatkit
 google-generativeai
-pyaudio
 python-dotenv
