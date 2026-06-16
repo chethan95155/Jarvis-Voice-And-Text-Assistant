@@ -12,9 +12,9 @@ A sophisticated AI-powered voice assistant with a modern Streamlit web interface
 - **Session Management**: Persistent chat history within user sessions
 - **Multi-Modal Input**: Support for text input and microphone voice commands
 
-##**Windows OS** (Windows 10 or later)
--  Prerequisites
+## Prerequisites
 
+- **Windows OS** (Windows 10 or later)
 - Python 3.8 or higher
 - Google Gemini API key ([Get one here](https://ai.google.dev/))
 - Microphone access (for voice features)
@@ -23,22 +23,16 @@ A sophisticated AI-powered voice assistant with a modern Streamlit web interface
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/jarvis-voice-assistant.git
-   cd jarvis-voice-assistant
+   git clone https://github.com/chethan95155/Jarvis-Voice-And-Text-Assistant.git
+   cd Jarvis-Voice-And-Text-Assistant
    ```
 
-2. **Create a virtual environment:**
-   ```bash
-   
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Configure API credentials:**
+3. **Configure API credentials:**
    - Create a `.env` file in the project root:
      ```
      GEMINI_API_KEY=your_api_key_here
@@ -85,19 +79,27 @@ jarvis-voice-assistant/
 - **Environment Variables**: Loaded at runtime using `python-dotenv`
 - `.gitignore` protects sensitive files from accidental commits
 
-## Deployment
+## Limitations & Notes
 
-### Streamlit Cloud
-1. Push code to GitHub
-2. Visit [Streamlit Cloud](https://streamlit.io/cloud)
-3. Create new app and select your repository
-4. Deploy
+- Voice input requires browser microphone permissions
+- System-level program launching (open/close) only works on local deployment
+- Cloud deployments may have browser security restrictions on audio
 
-### Docker
-```bash
-docker build -t jarvis-voice-assistant .
-docker run -p 8501:8501 jarvis-voice-assistant
-```
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| ModuleNotFoundError: No module named 'dotenv' | Run `pip install python-dotenv` |
+| Microphone not working | Check browser permissions and allow microphone access |
+| API key errors | Verify GEMINI_API_KEY is correctly set in .env |
+
+## License
+
+MIT License - See LICENSE file for details
+
+## Support
+
+For issues and questions, please open an issue on GitHub.
 
 ## Limitations & Notes
 
