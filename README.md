@@ -21,40 +21,6 @@ A sophisticated AI-powered voice assistant with a modern Streamlit web interface
 
 ## Installation
 
-### Option 1: Automatic Setup (Recommended)
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/chethan95155/Jarvis-Voice-And-Text-Assistant.git
-   cd Jarvis-Voice-And-Text-Assistant
-   ```
-
-2. **Run the setup script:**
-   
-   **For Command Prompt (cmd):**
-   ```bash
-   setup_venv.bat
-   ```
-   
-   **For PowerShell:**
-   ```powershell
-   .\setup_venv.ps1
-   ```
-   
-   This will automatically:
-   - Create a virtual environment
-   - Activate it
-   - Install all dependencies from requirements.txt
-
-3. **Configure API credentials:**
-   - Create a `.env` file in the project root:
-     ```
-     GEMINI_API_KEY=your_api_key_here
-     ```
-   - Replace `your_api_key_here` with your actual Google Gemini API key
-
-### Option 2: Manual Setup
-
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/chethan95155/Jarvis-Voice-And-Text-Assistant.git
