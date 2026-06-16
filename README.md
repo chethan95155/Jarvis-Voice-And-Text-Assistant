@@ -1,5 +1,7 @@
 # JARVIS Voice Assistant
 
+> **⚠️ Windows Only:** This application is designed for Windows systems. System-level features (opening/closing applications) require Windows OS.
+
 A sophisticated AI-powered voice assistant with a modern Streamlit web interface. JARVIS enables users to interact through both text and voice commands, leveraging Google's Gemini API for intelligent responses.
 
 ## Features
@@ -10,7 +12,8 @@ A sophisticated AI-powered voice assistant with a modern Streamlit web interface
 - **Session Management**: Persistent chat history within user sessions
 - **Multi-Modal Input**: Support for text input and microphone voice commands
 
-## Prerequisites
+##**Windows OS** (Windows 10 or later)
+-  Prerequisites
 
 - Python 3.8 or higher
 - Google Gemini API key ([Get one here](https://ai.google.dev/))
@@ -26,7 +29,7 @@ A sophisticated AI-powered voice assistant with a modern Streamlit web interface
 
 2. **Create a virtual environment:**
    ```bash
-   python -m venv venv
+   
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
